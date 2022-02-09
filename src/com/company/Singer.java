@@ -12,8 +12,10 @@ public class Singer extends Person {
     }
 
     void  singing(){
+        super.learnUiron();
+        super.walkHodit();
+        super.eatJe();
         System.out.println("He has a beautiful voice and sings well - Анын үнү сонун, жакшы ырдайт.");
-
     }
 
     void playGuitar(){
@@ -24,5 +26,6 @@ public class Singer extends Person {
     @Override
     public String toString() {
         return "Name='" + name + '\'' +", designation='" + designation + '\'' + ", bandName='" + bandName + "'.";
+
     }
 }

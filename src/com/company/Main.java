@@ -21,21 +21,12 @@ public class Main {
 
        System.out.println("Man can do everything. example:");
         System.out.println(programmer.toString());
-        programmer.learnUiron();
-        programmer.walkHodit();
-        programmer.eatJe();
         programmer.coding();
         System.out.println("___________________________________________________________________");
         System.out.println(dancer.toString());
-        dancer.learnUiron();
-        dancer.walkHodit();
-        dancer.eatJe();
         dancer.dancing();
         System.out.println("_________________________________________________________________________________");
         System.out.println(singer.toString());
-        singer.learnUiron();
-        singer.walkHodit();
-        singer.eatJe();
         singer.singing();
         singer.playGuitar();
        System.out.println("_____________________________________________________________________________________");

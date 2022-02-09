@@ -12,6 +12,9 @@ public class Programmer extends Person{
     }
 
     void  coding(){
+        super.learnUiron();
+        super.walkHodit();
+        super.eatJe();
         System.out.println("Loves to write code - Код жазганды жакшы көрөт.");
 
     }
@@ -19,6 +22,7 @@ public class Programmer extends Person{
     @Override
     public String toString() {
         return "Name='" + name + '\'' + ", designation='" + designation + '\'' + ", companyName='" + companyName+"'." ;
+
     }
 
 }

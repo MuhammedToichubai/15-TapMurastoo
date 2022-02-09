@@ -12,6 +12,9 @@ public class Dancer extends Person{
     }
 
     void dancing(){
+        super.learnUiron();
+        super.walkHodit();
+        super.eatJe();
         System.out.println("She dances very well, so she dances - Ал абдан жакшы бийлейт, ошондуктан бийлейт.");
 
     }
